@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 const PI = 3.14
 
@@ -42,4 +44,8 @@ func main() {
 	P := rectangle{length: 5, breadth: 6}
 	shapeInfo(C)
 	shapeInfo(P)
+	fmt.Println("Let start Goroutine")
+	Goroutine()
+	fmt.Println("All goroutine finished")
+
 }
