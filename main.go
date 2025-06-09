@@ -47,5 +47,10 @@ func main() {
 	fmt.Println("Let start Goroutine")
 	Goroutine()
 	fmt.Println("All goroutine finished")
+	dog := Animal{Name: "Dog", food: "Pedigree"}
+	cat := Animal{Name: "Cat", food: "Mouse"}
+	fmt.Println("Practice ")
+	Allability(cat)
+	Allability(dog)
 
 }
