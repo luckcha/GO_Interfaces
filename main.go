@@ -41,7 +41,7 @@ func shapeInfo(s shape) {
 
 func main() {
 	C := circle{radius: 3.25}
-	P := rectangle{length: 5, breadth: 6}
+	P := rectangle{length: 4, breadth: 6}
 	shapeInfo(C)
 	shapeInfo(P)
 	fmt.Println("Let start Goroutine")
